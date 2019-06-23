@@ -8,6 +8,7 @@ public class Artist implements Parcelable {
     private String title;
     private String image;
     private String artist_id;
+    private String name;
 
     public Artist(String title, String image, String artist_id) {
         this.title = title;
